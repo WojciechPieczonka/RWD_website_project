@@ -100,18 +100,18 @@ section {
   font-size: 36px;
   line-height: 42px;
   color: #152d41;
+  margin: 20px auto;
 }
 .worker:nth-of-type(odd) {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5% 0;
+  flex-direction: column;
 }
 .worker:nth-of-type(even) {
   display: flex;
-  flex-direction: row-reverse;
-  margin: 5% 0;
-  text-align: right;
+  flex-direction: column;
 }
 .worker-photo {
   background-size: cover;
@@ -151,10 +151,10 @@ section {
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 30px;
   color: #ffffff;
-  margin: 12% 0;
+  margin: 30px 0;
 }
 .services {
   width: 100%;
@@ -221,6 +221,7 @@ section {
 .fb-icon {
   margin-left: 20px;
 }
+
 @media (min-width: 1024px) {
   .button:hover {
     background-color: white;
@@ -252,5 +253,25 @@ section {
     line-height: 42px;
     color: #ffffff;
     padding-bottom: 50px;
+  }
+  .worker:nth-of-type(odd) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5% 0;
+  }
+  .worker:nth-of-type(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5% 0;
+    text-align: right;
+  }
+  .header-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #152d41;
+    margin: auto 0;
   }
 }
