@@ -35,13 +35,13 @@ a {
 .disabled {
   cursor: not-allowed;
 }
+.navigation .container {
+  height: 100%;
+}
 .company-name {
-  display: flex;
-  align-items: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  margin: 15px 0;
 }
 .header {
   color: #ffffff;
@@ -104,9 +104,9 @@ section {
 }
 .worker:nth-of-type(odd) {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .worker:nth-of-type(even) {
   display: flex;
@@ -273,7 +273,8 @@ section {
   .worker:nth-of-type(even) {
     display: flex;
     flex-direction: row-reverse;
-    margin: 5% 0;
+    align-items: center;
+    margin-top: 5%;
     text-align: right;
   }
   .header-h2 {
@@ -292,6 +293,7 @@ section {
     height: 200px;
     border-radius: 50%;
     aspect-ratio: 1;
+    margin: 0;
   }
   .service .dot {
     display: block;
