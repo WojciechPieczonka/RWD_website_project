@@ -248,7 +248,8 @@ section {
     font-style: normal;
     font-size: 36px;
     line-height: 42px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    margin-top: 0;
   }
   .worker:nth-of-type(odd) {
     flex-direction: row;
