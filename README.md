@@ -9,18 +9,18 @@ My second project for a website to practise the skills learnt on the course, thi
 
 Tools:
 
-Visual Studio Code
-Figma
-GitHub
-Netlify
-Prettier (VSCode plug-in)
+- Visual Studio Code
+- Figma
+- GitHub
+- Netlify
+- Prettier (VSCode plug-in)
 
 Project:
 
-**adaptation of the desigh for moblie devices**
-visual representetion of the project in Figma
-addition of fonts form Google Fonts
-addition of FontAwesome icons
-addition of link support
-adding a button with button support and animation of its appearance
-adding animation of services boxes
+- **adaptation of the desigh for moblie devices**
+- visual representetion of the project in Figma
+- addition of fonts form Google Fonts
+- addition of FontAwesome icons
+- addition of link support
+- adding a button with button support and animation of its appearance
+- adding animation of services boxes
